@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import VisibilitySensor from 'react-visibility-sensor';
 import ProjectDisplay from "./ProjectDisplay"
-import "../css/testCSS.css"
+
 class VisibilitySensorAppearingProject extends Component {
   
     constructor(props){
@@ -12,6 +12,7 @@ class VisibilitySensorAppearingProject extends Component {
 
     onChange(isVisible){
         if(isVisible){
+            console.log("Calling show function on child");
             this.child.show();
         }
     }

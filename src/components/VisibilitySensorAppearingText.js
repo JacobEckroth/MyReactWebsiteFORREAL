@@ -16,7 +16,7 @@ class VisibilitySensorAppearingText extends Component {
 
     startText(){
         if(this.state.visibility){
-            console.log("starting child");
+
             this.child.start();
         }
     }

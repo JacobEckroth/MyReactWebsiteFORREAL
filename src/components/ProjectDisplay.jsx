@@ -30,21 +30,20 @@ class ProjectDisplay extends React.Component {
  
   show() {
     this.setState({ visible: true });
+    console.log("I am showing myself");
   }
   render() {
     return (
         
       <div
-        class={
-          this.state.visible
-            ? " projectHolder visible"
-            : "projectHolder invisible"
+        className={
+          this.state.visible ? "projectHolder showIt": "projectHolder invisible"
         }
       >
-        <h2 class="projectTitle">{this.state.title}</h2>
+        <h2 className="projectTitle">{this.state.title}</h2>
         <img src={this.state.imageURL} alt={this.state.imageAlt} className="projectImage"></img>
 
-        <p class="projectDescription">
+        <p className="projectDescription">
         
           {this.state.descriptionText}
         </p>

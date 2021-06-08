@@ -28,7 +28,8 @@ code {
     color:white;
     font-size:25px;
 }
-.visible{
+
+.showIt{
     opacity:100%;
 }
 .invisible{
