@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
     <div className="mainContentHolder">
-        <h1> THIS WEBSITE IS A WORK IN PROGRESS. (it is also very bad, tread carefully)</h1>
+        <h1 className="consoleText"> THIS WEBSITE IS A WORK IN PROGRESS. (it is also very bad, tread carefully)</h1>
         <h1 className="consoleText"><VisibilitySensorAppearingText text="Hello! Welcome to my website. I hope you enjoy your time here!" time={5000}/></h1>
         <p className="regularText">My name is Jacob Eckroth. I am currently a senior studying Computer Science with a focus in Simulation and Game Programming
         at Oregon State University (Go Beavs!). I work as the Lead Student Ambassador for the College of Engineering. In my (very little) free time,
