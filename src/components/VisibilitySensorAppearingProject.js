@@ -12,7 +12,7 @@ class VisibilitySensorAppearingProject extends Component {
 
     onChange(isVisible){
         if(isVisible){
-            console.log("Calling show function on child");
+       
             this.child.show();
         }
     }

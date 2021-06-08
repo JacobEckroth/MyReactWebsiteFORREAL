@@ -13,7 +13,7 @@ class ProjectDisplay extends React.Component {
   constructor(props){
       super(props);
     this.state = {
-        visible: false,
+        showing: false,
         title: this.props.title,
         link: this.props.link,
         descriptionText:this.props.descriptionText,
@@ -29,15 +29,15 @@ class ProjectDisplay extends React.Component {
   
  
   show() {
-    this.setState({ visible: true });
-    console.log("I am showing myself");
+    this.setState({ showing: true });
+    
   }
   render() {
     return (
         
       <div
         className={
-          this.state.visible ? "projectHolder showIt": "projectHolder invisible"
+          this.state.showing ? "projectHolder showIt": "projectHolder notShowing"
         }
       >
         <h2 className="projectTitle">{this.state.title}</h2>
