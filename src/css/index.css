@@ -40,10 +40,10 @@ code {
 }
 
 .showIt{
-    opacity:100%;
+    opacity:1.;
 }
 .notShowing{
-    opacity:30%;
+    opacity:0;
 }
 
 .textLink{
