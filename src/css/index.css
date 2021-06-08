@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Modeseven';
+    src: local('Modeseven'), url(../fonts/Modeseven.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
 body {
   margin: 0px;
   padding:0px;
@@ -14,6 +21,7 @@ code {
 }
 
 .consoleText{
+    font-family: 'Modeseven','sans-serif';
     color: rgb(0,255,0);
 }
 
