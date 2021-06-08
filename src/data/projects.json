@@ -1,0 +1,7 @@
+[
+    { "title": "Collage Creator", 
+        "link": "http://collage.jacobeckroth.com",
+        "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
+        "imageURL":"http://placekitten.com/200/300",
+        "imageAlt":"Image" }
+]

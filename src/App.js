@@ -1,6 +1,5 @@
-import {AppearingText,VisibilitySensorAppearingText} from "./components"
-import logo from './logo.svg';
-import './test.css'
+import {ProjectsHolder,VisibilitySensorAppearingText} from "./components"
+
 function App() {
 
     
@@ -22,6 +21,7 @@ function App() {
         Ok, that's definitely enough about me. Here's my resume if you want to look at it, but lets move on to the fun part of this website (and probably the reason that you're here.)
     </p>
     <h1 class="consoleText"><VisibilitySensorAppearingText text="Let's look at some fun projects I've been working on." time={5000}/></h1>
+    <ProjectsHolder/>
 
      </div>
 

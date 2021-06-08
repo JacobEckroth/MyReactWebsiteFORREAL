@@ -28,3 +28,9 @@ code {
     color:white;
     font-size:25px;
 }
+.visible{
+    opacity:100%;
+}
+.invisible{
+    opacity:0%;
+}
