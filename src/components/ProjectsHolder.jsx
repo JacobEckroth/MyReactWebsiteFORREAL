@@ -8,7 +8,8 @@ const projects = data.map(item =>
     link = {item.link}
     descriptionText = {item.descriptionText}
     imageURL = {item.imageURL}
-    imageAlt = {item.imageAlt}/>
+    imageAlt = {item.imageAlt}
+    key = {item.key}/>
 
 )
 class ProjectsHolder extends React.Component {

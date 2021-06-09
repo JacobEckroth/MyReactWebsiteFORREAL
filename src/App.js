@@ -15,7 +15,7 @@ function App() {
      </p>
     <p className="regularText">
         Currently, my main focus is school and successfuly graduating in 3 years in Spring 2022. However, I have recently been fiddling around with 
-        some personal projects, as well as making some <a target="_blank" class="textLink" title="My Youtube Channel" href="https://www.youtube.com/channel/UCaiPyi8kBGzNcYGOtSZbiwg">youtube videos</a> about 
+        some personal projects, as well as making some <a rel="noreferrer" target="_blank" class="textLink" title="My Youtube Channel" href="https://www.youtube.com/channel/UCaiPyi8kBGzNcYGOtSZbiwg">youtube videos</a> about 
         coding and the projects that I have been working on. 
     </p>
 

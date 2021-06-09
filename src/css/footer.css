@@ -8,7 +8,7 @@
     flex-flow: row wrap;
     justify-content:center;
     align-items:center;
-    height:30px;
+    
 }
 
 .footerText{
@@ -18,7 +18,7 @@
     text-align:center;
 }
 .reactImage{
-    height:80%;
+    height:30px;
     width:auto;
     margin:0px;
     padding:0px;

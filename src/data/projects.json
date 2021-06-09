@@ -4,5 +4,6 @@
         "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
         "imageURL":"http://placekitten.com/200/300",
         "imageAlt":"Image",
-        "githubLink":"https://github.com/Jacob-Eckroth-School/361-ImageCollageCreator" }
+        "githubLink":"https://github.com/Jacob-Eckroth-School/361-ImageCollageCreator",
+        "key": "COLLAGECREATOR" }
 ]

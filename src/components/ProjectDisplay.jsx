@@ -36,6 +36,7 @@ class ProjectDisplay extends React.Component {
     return (
         
       <div
+        key={this.state.keyValue}
         className={
           this.state.showing ? "projectHolder showIt": "projectHolder notShowing"
         }
