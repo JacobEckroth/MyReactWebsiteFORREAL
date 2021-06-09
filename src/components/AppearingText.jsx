@@ -111,7 +111,7 @@ class AppearingText extends React.Component {
     render() {
         return (
         <div>
-            <p class="typedText">{this.state.currentText} {this.state.underScore}</p>  
+            <p className="typedText">{this.state.currentText} {this.state.underScore}</p>  
         </div>
         );
     }
