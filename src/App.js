@@ -1,4 +1,4 @@
-import {ProjectsHolder,VisibilitySensorAppearingText} from "./components"
+import {ProjectsHolder,VisibilitySensorAppearingText,Footer} from "./components"
 
 function App() {
 
@@ -26,7 +26,7 @@ function App() {
     <ProjectsHolder/>
 
      </div>
-
+    <Footer/>
      
 
   

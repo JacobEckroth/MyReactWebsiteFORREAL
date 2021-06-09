@@ -1,0 +1,43 @@
+#footer{
+    width:100%;
+    background-color:rgb(34, 53, 36);
+    margin: 0px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items:center;
+    height:30px;
+}
+
+.footerText{
+    padding:0px;
+    margin:0px;
+    color:white;
+    text-align:center;
+}
+.reactImage{
+    height:80%;
+    width:auto;
+    margin:0px;
+    padding:0px;
+    animation-name:circleRotate;
+    animation-duration:8s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+@keyframes circleRotate{
+    from{
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+
+.footerLink{
+    color:inherit;
+    font-weight:bold;
+    
+}
