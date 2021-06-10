@@ -9,7 +9,9 @@ const projects = data.map(item =>
     descriptionText = {item.descriptionText}
     imageURL = {item.imageURL}
     imageAlt = {item.imageAlt}
-    key = {item.key}/>
+    key = {item.key}
+    githubLink = {item.githubLink}
+    youtubeLink = {item.youtubeLink}/>
 
 )
 class ProjectsHolder extends React.Component {
@@ -20,7 +22,7 @@ class ProjectsHolder extends React.Component {
   
   render() {
     return (
-      <div id="projectHolder">
+      <div id="projectsHolder">
           {projects}
     </div>
       
