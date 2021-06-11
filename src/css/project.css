@@ -4,9 +4,9 @@ body{
 
 
 .projectHolder{
-    transition:opacity 1s linear,box-shadow .3s linear ;
+    transition:opacity 1s linear,box-shadow .1s linear ;
     
-    background-color: rgb(10, 34, 14);
+ 
 
     border-radius:15px;
     width:500px;
@@ -14,7 +14,7 @@ body{
     display:flex;
     flex-flow:column wrap;
     align-items:center;
-    
+    justify-content:center;
     padding-top:0px;
     margin-top:20px;
     margin-bottom:20px;
@@ -22,13 +22,22 @@ body{
     padding-right:5px;
     margin-left:20px;
     margin-right:20px;
+    background-image:url("../images/CollageWebsite.jpg");
+    background-size:contain;
+    box-shadow:0px 0px 10px white;
 
-
+}
+.projectHolder:hover{
+    box-shadow:3px 3px 10px white;
+    cursor:pointer;
 }
 .projectDescription{
     margin-bottom:none;
-    color:white;
+    color:black;
     text-align:center;
+    width:90%;
+    font-weight:bold;
+    text-shadow:.5px .5px 2px #838383;
 }
 
 .projectImage{
@@ -37,12 +46,15 @@ body{
 }
 
 .projectTitle{
-    color:rgb(255, 255, 255);
+    margin:none;
+    padding:none;
+    color:black;
     text-align:center;
-    width:100%;
+    
     font-size:30px;
     font-weight:bold;
-   /* text-shadow:3px 3px 5px #4e296d;*/
+    text-shadow:3px 3px 7px #b9b9b9;
+   
 }
 .projectTitle a{
     transition:color 1s ease;
@@ -57,15 +69,46 @@ body{
 .githubLogo{
     height:50px;
     width:auto;
-
+    animation: wiggleOut 1s linear;
 }
-
+.githubLogo:hover{
+    animation: wiggleIn 1.5s linear infinite;
+}
+@keyframes wiggleOut{
+    from{
+        transform:initial;
+    }
+    to{
+        transform:rotate(0deg);
+    }
+}
+@keyframes wiggleIn {
+  0%{
+      transform:rotate(0deg);
+  }
+  25%{
+      transform:rotate(-15deg);
+  }
+  50%{
+      transform:rotate(0deg);
+  }
+  75%{
+      transform:rotate(15deg);
+  }
+  100%{
+      transofmr:rotate(0deg);
+  }
+}
 
 .youtubeLogo{
     color:black;
     height:50px;
     width:auto;
-   
+    animation: wiggleOut 4s linear;
+    
+}
+.youtubeLogo:hover{
+    animation:wiggleIn 1.5s linear infinite;
 }
 .linkHolder{
     margin-top:3%;
@@ -93,4 +136,18 @@ body{
 }
 path{
     fill:inherit;
+}
+
+
+@media (max-width:600px){
+    .projectImage{
+        height:40%;
+    }
+ 
+    .linkHolder{
+        width:100%;
+    }
+    .projectTitle{
+        font-size:14px;
+    }
 }

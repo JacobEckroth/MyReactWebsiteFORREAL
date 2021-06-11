@@ -34,6 +34,14 @@ code {
     flex-flow:column wrap;
     align-items: flex-start;
 }
+
+
+@media (max-width:600px){
+    .mainContentHolder{
+        width:90%;
+        margin-left:5%;
+    }
+}
 .regularText{
     color:white;
     font-size:25px;

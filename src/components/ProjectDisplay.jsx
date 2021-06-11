@@ -56,11 +56,7 @@ class ProjectDisplay extends React.Component {
           </a>
         </div>
         <h2 className="projectTitle"><a href="http://collage.jacobeckroth.com" title="Collage Website" rel="noreferrer" target="_blank">{this.state.title}</a></h2>
-        <img
-          src={this.state.imageURL}
-          alt={this.state.imageAlt}
-          className="projectImage"
-        ></img>
+        
 
         <p className="projectDescription">{this.state.descriptionText}</p>
       </div>
