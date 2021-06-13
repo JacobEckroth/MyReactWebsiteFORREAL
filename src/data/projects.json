@@ -2,9 +2,10 @@
     { "title": "Collage Creator", 
         "link": "http://collage.jacobeckroth.com",
         "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
-        "imageURL":"http://placekitten.com/200/300",
-        "imageAlt":"Image",
+        "imageURL":"/images/CollageWebsite.jpg",
+        "imageAlt":"Collage Website Image",
         "githubLink":"https://github.com/Jacob-Eckroth-School/361-ImageCollageCreator",
         "youtubeLink":"https://youtu.be/foGSwIaOSik?t=551",
-        "key": "COLLAGECREATOR" }
+        "key": "COLLAGECREATOR",
+        "projectPageLink":"http://collage.jacobeckroth.com" }
 ]
