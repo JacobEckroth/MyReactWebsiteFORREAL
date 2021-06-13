@@ -30,7 +30,7 @@ class ProjectDisplay extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div class="biggerHolder">
         <a
           className="projectPageLink"
           href={this.state.projectPageLink}

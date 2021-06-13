@@ -1,11 +1,46 @@
 [
-    { "title": "Collage Creator", 
-        "link": "http://collage.jacobeckroth.com",
-        "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
-        "imageURL":"/images/CollageWebsite.jpg",
-        "imageAlt":"Collage Website Image",
-        "githubLink":"https://github.com/Jacob-Eckroth-School/361-ImageCollageCreator",
-        "youtubeLink":"https://youtu.be/foGSwIaOSik?t=551",
-        "key": "COLLAGECREATOR",
-        "projectPageLink":"http://collage.jacobeckroth.com" }
+  {
+    "title": "Collage Creator",
+    "link": "http://collage.jacobeckroth.com",
+    "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
+    "imageURL": "/images/CollageWebsite.jpg",
+    "imageAlt": "Collage Website Image",
+    "githubLink": "https://github.com/Jacob-Eckroth-School/361-ImageCollageCreator",
+    "youtubeLink": "https://youtu.be/foGSwIaOSik?t=551",
+    "key": "COLLAGECREATOR",
+    "projectPageLink": "http://collage.jacobeckroth.com"
+  },
+  {
+    "title": "Collage Creator",
+    "link": "http://collage.jacobeckroth.com",
+    "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
+    "imageURL": "/images/CollageWebsite.jpg",
+    "imageAlt": "Collage Website Image",
+    "githubLink": "https://github.com/Jacob-Eckroth-School/361-ImageCollageCreator",
+    "youtubeLink": "https://youtu.be/foGSwIaOSik?t=551",
+    "key": "COLLAGECREATOR2",
+    "projectPageLink": "http://collage.jacobeckroth.com"
+  },
+  {
+    "title": "Collage Creator",
+    "link": "http://collage.jacobeckroth.com",
+    "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
+    "imageURL": "/images/CollageWebsite.jpg",
+    "imageAlt": "Collage Website Image",
+    "githubLink": "https://github.com/Jacob-Eckroth-School/361-ImageCollageCreator",
+    "youtubeLink": "https://youtu.be/foGSwIaOSik?t=551",
+    "key": "COLLAGECREATOR3",
+    "projectPageLink": "http://collage.jacobeckroth.com"
+  },
+  {
+    "title": "Collage Creator",
+    "link": "http://collage.jacobeckroth.com",
+    "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
+    "imageURL": "/images/CollageWebsite.jpg",
+    "imageAlt": "Collage Website Image",
+    "githubLink": "https://github.com/Jacob-Eckroth-School/361-ImageCollageCreator",
+    "youtubeLink": "https://youtu.be/foGSwIaOSik?t=551",
+    "key": "COLLAGECREATOR4",
+    "projectPageLink": "http://collage.jacobeckroth.com"
+  }
 ]
