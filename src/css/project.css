@@ -64,7 +64,7 @@ body{
    
     font-size:30px;
     font-weight:bold;
-    text-shadow:3px 3px 7px #b9b9b9;
+    
    
 }
 .projectTitle a{
@@ -159,7 +159,6 @@ path{
 @media (max-width:600px){
   
     .linkHolder{
-       
         height:15%;
     }
     .projectTitle{
@@ -177,6 +176,13 @@ path{
     .projectHolder{
         width:200px;
         height:200px;
+        justify-content:center;
+    }
+    .projectTitle{
+        margin-bottom:10%;
+    }
+    .linkHolder{
+        display:none;
     }
     
 }
