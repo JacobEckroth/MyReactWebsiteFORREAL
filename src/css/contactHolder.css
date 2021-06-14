@@ -1,0 +1,35 @@
+#ContactMe{
+    color:white;
+    display:flex;
+    flex-flow:row wrap;
+    justify-content:space-around;
+    align-items:center;
+    width:70%;
+    align-self:center;
+    height:100px;
+    margin-bottom:50px;
+    margin-top:20px;
+}
+@media(max-width:800px){
+    #ContactMe{
+        width:100%;
+        justify-content:space-between;
+        height:75px;
+    }
+}
+.contactLINK{
+    height:100%;
+    fill:white;
+   
+}
+
+
+.contactSVG{
+    height:100%;
+    width:auto;
+}
+
+path{
+
+    fill:inherit;
+}
