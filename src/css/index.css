@@ -62,3 +62,28 @@ code {
 .textLink:hover{
     color:rgb(0,255,0)
 }
+@keyframes wiggleOut{
+    from{
+        transform:initial;
+    }
+    to{
+        transform:rotate(0deg);
+    }
+}
+@keyframes wiggleIn {
+  0%{
+      transform:rotate(0deg);
+  }
+  25%{
+      transform:rotate(-15deg);
+  }
+  50%{
+      transform:rotate(0deg);
+  }
+  75%{
+      transform:rotate(15deg);
+  }
+  100%{
+      transform:rotate(0deg);
+  }
+}

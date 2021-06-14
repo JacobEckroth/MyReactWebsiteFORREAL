@@ -1,5 +1,4 @@
 #ContactMe{
-    color:white;
     display:flex;
     flex-flow:row wrap;
     justify-content:space-around;
@@ -20,16 +19,27 @@
 .contactLINK{
     height:100%;
     fill:white;
-   
+    transition: fill .5s ease;
 }
 
-
+.youtubeLink:hover{
+    fill:red;
+}
 .contactSVG{
     height:100%;
     width:auto;
+    animation: wiggleOut 1s linear;
+}
+.contactSVG:hover{
+    animation: wiggleIn 1.5s linear infinite;
+}
+.linkedInLink:hover{
+    fill:#0A66C2; 
+}
+.emailLink:hover{
+    fill:#008900;
 }
 
 path{
-
     fill:inherit;
 }
