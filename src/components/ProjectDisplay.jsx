@@ -34,8 +34,7 @@ class ProjectDisplay extends React.Component {
         <a
           className="projectPageLink"
           href={this.state.projectPageLink}
-          rel="noreferrer"
-          target="_blank"
+          
         >
           <div
             key={this.state.keyValue}

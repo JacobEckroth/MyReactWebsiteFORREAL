@@ -9,5 +9,16 @@
     "youtubeLink": "https://youtu.be/foGSwIaOSik?t=551",
     "key": "COLLAGECREATOR",
     "projectPageLink": "http://collage.jacobeckroth.com"
+  },
+  {
+    "title": "My Personal Website",
+    "link": "https://jacobeckroth.com",
+    "descriptionText": "My personal website, made using React.",
+    "imageURL": "/images/PersonalWebsite.jpg",
+    "imageAlt": "Personal Website Image",
+    "githubLink": "https://github.com/JacobEckroth/MyReactWebsiteFORREAL",
+    "youtubeLink": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "key": "PERSONALWEBSITE",
+    "projectPageLink": "https://jacobeckroth.com"
   }
 ]
