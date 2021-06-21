@@ -77,6 +77,7 @@ class ProjectDisplay extends React.Component {
         <a
           className="projectPageLink"
           href={this.state.projectPageLink}
+          title="Portfolio Page"
           
         >
           <div
@@ -90,8 +91,8 @@ class ProjectDisplay extends React.Component {
             {this.getLink()}
             <h2 className="projectTitle">
               <a
-                href="http://collage.jacobeckroth.com"
-                title="Collage Website"
+                href={this.state.link}
+                title={this.state.title}
                 rel="noreferrer"
                 target="_blank"
               >

@@ -1,7 +1,7 @@
 [
   {
     "title": "Collage Creator",
-    "link": "http://collage.jacobeckroth.com",
+    "link": "https://collage.jacobeckroth.com",
     "descriptionText": "A simple website you can use to create collages that I created for my Software Engineering Class",
     "imageURL": "/images/CollageWebsite.jpg",
     "imageAlt": "Collage Website Image",
@@ -19,5 +19,15 @@
     "githubLink": "https://github.com/JacobEckroth/MyReactWebsiteFORREAL",
     "key": "PERSONALWEBSITE",
     "projectPageLink": "https://jacobeckroth.com"
+  },
+  {
+    "title": "Portfolio Website",
+    "link": "https://portfolio.jacobeckroth.com",
+    "descriptionText": "My portfolio website, made using Express and handlebars.",
+    "imageURL": "/images/PortfolioWebsite.jpg",
+    "imageAlt": "Portfolio Website Image",
+    "githubLink": "https://github.com/JacobEckroth/PortfolioWebsite",
+    "key": "PORTFOLIOWEBSITE",
+    "projectPageLink": "https://portfolio.jacobeckroth.com/"
   }
 ]
