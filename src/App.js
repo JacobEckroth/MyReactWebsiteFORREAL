@@ -27,7 +27,7 @@ function App() {
     </p>
 
     <p className="regularText">
-        Ok, that's definitely enough about me. <a rel="noreferrer" target="_blank" class="textLink" title="My Resume" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Here's my resume</a> if you want to look at it, but lets move on to the fun part of this website (and probably the reason that you're here.)
+        Ok, that's definitely enough about me. <a rel="noreferrer" target="_blank" class="textLink" title="My Resume" href="/files/JacobEckrothResume.pdf">Here's my resume</a> if you want to look at it, but lets move on to the fun part of this website (and probably the reason that you're here.)
     </p>
     <h1 className="consoleText"><VisibilitySensorAppearingText text="Let's look at some fun projects I've been working on." time={3000}/></h1>
     <ProjectsHolder/>

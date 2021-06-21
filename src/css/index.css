@@ -64,6 +64,7 @@ code {
     text-decoration:underline;
     color:inherit;
     font-weight:bold;
+    transition:color .5s linear;
 }
 .textLink:hover{
     color:rgb(0,255,0)
