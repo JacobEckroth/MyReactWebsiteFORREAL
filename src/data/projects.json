@@ -29,5 +29,16 @@
     "githubLink": "https://github.com/JacobEckroth/PortfolioWebsite",
     "key": "PORTFOLIOWEBSITE",
     "projectPageLink": "https://portfolio.jacobeckroth.com/"
+  },
+  {
+    "title": "2048+ Game",
+    "link": "https://jacobeckroth.itch.io/2048",
+    "descriptionText": "One of the first games I made in C++ using SDL2. A simple 2048 game where you can expand the board size.",
+    "imageURL": "/images/2048.png",
+    "imageAlt": "2048 Game Image",
+    "githubLink": "https://github.com/JacobEckroth/2048",
+    "key": "P2048GAME",
+    "youtubeLink": "https://www.youtube.com/watch?v=fcBZbmNs66s",
+    "projectPageLink": "https://jacobeckroth.itch.io/2048"
   }
 ]
