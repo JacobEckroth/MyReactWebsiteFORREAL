@@ -1,7 +1,7 @@
 import React from "react";
 import "../css/project.css";
 import Card from "react-bootstrap/Card";
-import Button from "react-bootstrap/Button"
+
 
 class ProjectDisplay extends React.Component {
   componentDidMount() {
@@ -46,7 +46,8 @@ class ProjectDisplay extends React.Component {
         <Card.Text className="projectText">{this.state.descriptionText}
             
         </Card.Text>
-        <Button className="linkButton" variant="primary" href={this.state.link}>{this.state.linkName}</Button>
+        <a href={this.state.link} class=" linkButton btn btn-primary stretched-link">{this.state.linkName}</a>
+        
         </Card.Body>
     </Card>
       

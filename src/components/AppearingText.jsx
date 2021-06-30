@@ -102,7 +102,7 @@ class AppearingText extends React.Component {
     addOneCharacter(){
         var currentChar = this.state.finalText[this.state.currentIndex]
         this.state.currentText += currentChar;
-
+    
         this.state.currentIndex +=1;
         this.setState({state:this.state})
     }

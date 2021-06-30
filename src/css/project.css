@@ -7,10 +7,15 @@ body{
     flex-basis:40%;
     margin-bottom:50px;
     background-color:rgb(11, 49, 11);
-    transition:opacity 2s ease,top 1s ease;
-
+    transition:opacity 2s ease,top 1s linear, box-shadow .2s linear;
+    box-shadow:1px 1px 5px rgb(34, 34, 34);
+    border:none;
 }
 
+.projectCard:hover{
+    box-shadow:4px 4px 5px rgb(34, 34, 34);
+
+}
 
 .projectTitle{
     color:white;
