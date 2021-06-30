@@ -23,7 +23,7 @@
 }
 
 .youtubeLink:hover{
-    fill:red;
+    fill:rgb(163, 12, 12);
 }
 .contactSVG{
     height:100%;
@@ -39,7 +39,9 @@
 .emailLink:hover{
     fill:#008900;
 }
-
+.githubLink:hover{
+    fill:rgb(214, 197, 40);
+}
 path{
     fill:inherit;
 }

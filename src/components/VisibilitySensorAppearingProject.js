@@ -31,9 +31,7 @@ class VisibilitySensorAppearingProject extends Component {
         descriptionText = {this.props.descriptionText}
         imageURL = {this.props.imageURL}
         imageAlt = {this.props.imageAlt}
-        githubLink = {this.props.githubLink}
-        youtubeLink = {this.props.youtubeLink}
-        projectPageLink = {this.props.projectPageLink}/>
+        linkName = {this.props.linkName}/>
    
 
       </VisibilitySensor>

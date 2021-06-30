@@ -10,9 +10,8 @@ const projects = data.map(item =>
     imageURL = {item.imageURL}
     imageAlt = {item.imageAlt}
     key = {item.key}
-    githubLink = {item.githubLink}
-    youtubeLink = {item.youtubeLink}
-    projectPageLink = {item.projectPageLink}/>
+    linkName = {item.linkName}
+   />
 
 )
 class ProjectsHolder extends React.Component {
