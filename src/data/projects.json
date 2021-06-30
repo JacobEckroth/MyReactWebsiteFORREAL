@@ -37,8 +37,19 @@
     "imageURL": "/images/2048.png",
     "imageAlt": "2048 Game Image",
     "githubLink": "https://github.com/JacobEckroth/2048",
-    "key": "P2048GAME",
+    "key": "2048GAME",
     "youtubeLink": "https://www.youtube.com/watch?v=fcBZbmNs66s",
     "projectPageLink": "https://jacobeckroth.itch.io/2048"
+  },
+  {
+    "title": "Chess (Part 1)",
+    "link": "https://portfolio.jacobeckroth.com/chessPartOne",
+    "descriptionText": "The first part of a chess engine. I completely implemented all of the functionalities for chess including checkmate, en-passant, and promoting.",
+    "imageURL": "/images/chess.jpg",
+    "imageAlt": "Chess Game Image",
+    "githubLink": "https://github.com/JacobEckroth/BetterChess",
+    "key": "CHESSPart1",
+    "youtubeLink": "https://www.youtube.com/watch?v=kwQk5A26cis",
+    "projectPageLink": "https://portfolio.jacobeckroth.com/chessPartOne"
   }
 ]
