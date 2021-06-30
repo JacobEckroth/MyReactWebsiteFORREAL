@@ -8,7 +8,7 @@ function App() {
     <div className="App">
     <div className="mainContentHolder">
         
-        <h1 className="consoleText"><VisibilitySensorAppearingText text="Hello! Welcome to my website. I hope you enjoy your time here!" time={3000}/></h1>
+        <h1 className="consoleText"><VisibilitySensorAppearingText text="Hello! Welcome to my website. I hope you enjoy your time here!" time={2000}/></h1>
         <p className="regularText">My name is Jacob Eckroth. I am currently a senior studying Computer Science with a focus in Simulation and Game Programming
         at Oregon State University (Go Beavs!). I work as the Lead Student Ambassador for the College of Engineering. In my (very little) free time,
         I enjoy reading, working on personal CS projects, playing tennis, gaming, and watching Youtube videos.
@@ -29,7 +29,7 @@ function App() {
     <p className="regularText">
         Ok, that's definitely enough about me. <a rel="noreferrer" target="_blank" class="textLink" title="My Resume" href="/files/JacobEckrothResume.pdf">Here's my resume</a> if you want to look at it, but lets move on to the fun part of this website (and probably the reason that you're here.)
     </p>
-    <h1 className="consoleText"><VisibilitySensorAppearingText text="Let's look at some fun projects I've been working on." time={3000}/></h1>
+    <h1 className="consoleText"><VisibilitySensorAppearingText text="Let's look at some fun projects I've been working on." time={2000}/></h1>
     <ProjectsHolder/>
     <h1 className="consoleText"><VisibilitySensorAppearingText text="Want to contact me?" time={1000}/></h1>
     <ContactHolder/>
