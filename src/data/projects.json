@@ -51,5 +51,16 @@
     "key": "CHESSPart1",
     "youtubeLink": "https://www.youtube.com/watch?v=kwQk5A26cis",
     "projectPageLink": "https://portfolio.jacobeckroth.com/chessPartOne"
+  },
+  {
+    "title": "OpenGL Clock",
+    "link": "https://portfolio.jacobeckroth.com/openGLClock",
+    "descriptionText": "My final project for my Computer Graphics class, a real-time clock in OpenGL",
+    "imageURL": "/images/openGL.jpg",
+    "imageAlt": "openGL Clock Image",
+    "githubLink": "https://github.com/JacobEckroth/BetterChess",
+    "key": "OPENGL",
+    "youtubeLink": "https://www.youtube.com/watch?v=DsrdUbZLZVY",
+    "projectPageLink": "https://portfolio.jacobeckroth.com/openGLClock"
   }
 ]
