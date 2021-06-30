@@ -56,9 +56,14 @@ code {
 
 .showIt{
     opacity:1.;
+    margin-top:0px;
+    top:0px;
+    left:0px;
 }
 .notShowing{
     opacity:0;
+    left:0px;
+    top:100px;
 }
 
 .textLink{

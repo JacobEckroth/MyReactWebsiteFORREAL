@@ -7,7 +7,7 @@ body{
     flex-basis:40%;
     margin-bottom:50px;
     background-color:rgb(11, 49, 11);
-    transition:opacity 2s ease;
+    transition:opacity 2s ease,top 1s ease;
 
 }
 
@@ -24,7 +24,8 @@ body{
     background-color: rgb(22, 94, 22);
     border:none;
     box-shadow:3px 3px 5px rgb(24, 24, 24);
-    transition:box-shadow .3s linear, background-color .5s ease;
+    transition:box-shadow .3s linear, background-color .5s ease, 
+
 }
 .linkButton:hover{
     background-color: rgb(29, 124, 29);
