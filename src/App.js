@@ -10,17 +10,17 @@ function App() {
   return (
     <div className="App">
       <div className="mainContentHolder">
-        <h1 className="consoleText">
+        <h1>
           <VisibilitySensorAppearingText
             text="Hello! Welcome to my website. I hope you enjoy your time here!"
-            time={2000}
+            time={3000}
           />
         </h1>
         <SlideUpComponent styleName="regularText">
           <p>
             My name is Jacob Eckroth. I am currently a senior studying Computer
             Science with a focus in Simulation and Game Programming at Oregon
-            State University (Go Beavs!). I work as the Lead Student Ambassador
+            State University <span class="beaverOrange">(Go Beavs!)</span>. I work as the Lead Student Ambassador
             for the College of Engineering. In my (very little) free time, I
             enjoy reading, working on personal CS projects, playing tennis,
             gaming, and watching Youtube videos.
@@ -72,16 +72,16 @@ function App() {
           website (and probably the reason that you're here.)
         </p>
         </SlideUpComponent>
-        <h1 className="consoleText">
+        <h1>
           <VisibilitySensorAppearingText
             text="Let's look at some fun projects I've been working on."
-            time={2000}
+            time={3000}
           />
         </h1>
         <ProjectsHolder />
-        <h1 className="consoleText">
+        <h1>
           <VisibilitySensorAppearingText
-            text="Want to contact me?"
+            text="Want to contact me? I would love to get an email that's not spam"
             time={1000}
           />
         </h1>
