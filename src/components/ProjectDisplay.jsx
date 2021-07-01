@@ -108,9 +108,8 @@ class ProjectDisplay extends React.Component {
 
   render() {
     return (
-        <SlideUpComponent styleName="projectCard" key={this.state.keyValue}>
+      <SlideUpComponent styleName="projectCard" key={this.state.keyValue}>
         <Card>
-             
           <Card.Img
             alt={this.state.projectData.imageAlt}
             className="projectImage"
@@ -127,10 +126,9 @@ class ProjectDisplay extends React.Component {
           </Card.Body>
           <ListGroup className="list-group-flush">
             {this.state.buttons}
-          </ListGroup> 
+          </ListGroup>
         </Card>
-        </SlideUpComponent>
-        
+      </SlideUpComponent>
     );
   }
 }

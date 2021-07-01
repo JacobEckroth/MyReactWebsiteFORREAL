@@ -13,14 +13,12 @@ class SlideUpComponent extends Component {
   }
 
   onChange(isVisible) {
-  
     if (isVisible) {
       this.slideUp();
     }
   }
   slideUp() {
     if (this.state.hasLoaded === false) {
-        
       this.setState({ hasLoaded: true, sensorActive: false });
     }
   }
@@ -36,9 +34,9 @@ class SlideUpComponent extends Component {
         <div
           className={
             this.state.hasLoaded
-              ? `slideUpComponent slidUp ${this.props.styleName}` 
-              : `slideUpComponent pushedDown ${this.props.styleName}` 
-          } 
+              ? `slideUpComponent slidUp ${this.props.styleName}`
+              : `slideUpComponent pushedDown ${this.props.styleName}`
+          }
         >
           {this.props.children}
         </div>

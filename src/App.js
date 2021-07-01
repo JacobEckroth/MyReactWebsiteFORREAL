@@ -16,18 +16,18 @@ function App() {
             time={3000}
           />
         </h1>
-      
+
         <SlideUpComponent styleName="regularText">
           <p>
             My name is Jacob Eckroth. I am currently a senior studying Computer
             Science with a focus in Simulation and Game Programming at Oregon
-            State University <span class="beaverOrange">(Go Beavs!)</span>. I work as the Lead Student Ambassador
-            for the College of Engineering. In my (very little) free time, I
-            enjoy reading, working on personal CS projects, playing tennis,
-            gaming, and watching Youtube videos.
+            State University <span class="beaverOrange">(Go Beavs!)</span>. I
+            work as the Lead Student Ambassador for the College of Engineering.
+            In my (very little) free time, I enjoy reading, working on personal
+            CS projects, playing tennis, gaming, and watching Youtube videos.
           </p>
         </SlideUpComponent>
-        <hr class="textBreak"/>
+        <hr class="textBreak" />
         <SlideUpComponent styleName="regularText">
           <p>
             Currently, my main focus is school and successfuly graduating in 3
@@ -45,7 +45,7 @@ function App() {
             about coding and the projects that I have been working on.
           </p>
         </SlideUpComponent>
-        <hr class="textBreak"/>
+        <hr class="textBreak" />
         <SlideUpComponent styleName="regularText">
           <p>
             I am also currently working on figuring out where I'm going to work
@@ -59,24 +59,24 @@ function App() {
             that.
           </p>
         </SlideUpComponent>
-        <hr class="textBreak"/>
+        <hr class="textBreak" />
         <SlideUpComponent styleName="regularText">
-        <p>
-          Ok, that's definitely enough about me.{" "}
-          <a
-            rel="noreferrer"
-            target="_blank"
-            class="textLink"
-            title="My Resume"
-            href="/files/JacobEckrothResume.pdf"
-          >
-            Here's my resume
-          </a>{" "}
-          if you want to look at it, but lets move on to the fun part of this
-          website (and probably the reason that you're here.)
-        </p>
+          <p>
+            Ok, that's definitely enough about me.{" "}
+            <a
+              rel="noreferrer"
+              target="_blank"
+              class="textLink"
+              title="My Resume"
+              href="/files/JacobEckrothResume.pdf"
+            >
+              Here's my resume
+            </a>{" "}
+            if you want to look at it, but lets move on to the fun part of this
+            website (and probably the reason that you're here.)
+          </p>
         </SlideUpComponent>
-        
+
         <h1>
           <VisibilitySensorAppearingText
             text="Let's look at some fun projects I've been working on."
@@ -90,9 +90,8 @@ function App() {
             time={2000}
           />
         </h1>
-     
+
         <ContactHolder />
-   
       </div>
       <Footer />
     </div>
