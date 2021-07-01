@@ -5,3 +5,4 @@ export {default as VisibilitySensorAppearingProject} from "./VisibilitySensorApp
 export {default as ProjectsHolder} from "./ProjectsHolder"
 export {default as Footer} from "./Footer"
 export {default as ContactHolder} from "./ContactHolder"
+export {default as SlideUpComponent} from "./SlideUpComponent"

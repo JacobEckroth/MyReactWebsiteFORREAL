@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'Modeseven';
-    src: local('Modeseven'), url(../fonts/Modeseven.ttf) format('truetype');
-    /* other formats include: 'woff2', 'truetype, 'opentype',
-                              'embedded-opentype', and 'svg' */
-  }
+
 
 body {
   margin: 0px;
@@ -15,18 +10,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
 
 
 
-.consoleText{
-    font-family: 'Modeseven','sans-serif';
-    color: rgb(0,255,0);
-    margin-top:30px;
-}
 
 .mainContentHolder{
     margin-left:15%;
@@ -34,25 +20,12 @@ code {
     display:flex;
     flex-flow:column wrap;
     align-items: flex-start;
-}
-@media(max-width:1200px){
-    .mainContentHolder{
-        width:80%;
-        margin-left:10%;
-    }
+    background-color:rgb(78, 75, 75);
+    box-shadow:0px 0px 10px black;
 }
 
-@media (max-width:600px){
-    .mainContentHolder{
-        width:90%;
-        margin-left:5%;
-    }
-}
-.regularText{
-    color:white;
-    font-size:25px;
-    line-height:48px;
-}
+
+
 
 .showIt{
     opacity:1.;
@@ -66,15 +39,28 @@ code {
     top:100px;
 }
 
-.textLink{
-    text-decoration:underline;
-    color:inherit;
-    font-weight:bold;
-    transition:color .5s linear;
+
+
+
+/* Media Queries*/
+
+@media(max-width:1200px){
+    .mainContentHolder{
+        width:80%;
+        margin-left:10%;
+    }
 }
-.textLink:hover{
-    color:rgb(0,255,0)
+
+
+@media (max-width:600px){
+    .mainContentHolder{
+        width:90%;
+        margin-left:5%;
+    }
 }
+
+
+/* Animations */
 @keyframes wiggleOut{
     from{
         transform:initial;

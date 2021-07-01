@@ -1,0 +1,15 @@
+.slidUp{
+    opacity:1.;
+   
+    top:0px;
+    left:0px;
+}
+.pushedDown{
+    opacity:0;
+    left:0px;
+    top:100px;
+}
+.slideUpComponent{
+    position:relative;
+    transition:opacity 1.25s ease,top 1.25s linear;
+}

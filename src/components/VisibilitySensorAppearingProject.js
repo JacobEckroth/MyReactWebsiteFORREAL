@@ -26,13 +26,8 @@ class VisibilitySensorAppearingProject extends Component {
        
       >
         <ProjectDisplay onRef={ref=>(this.child=ref)}
-        title = {this.props.title}
-        link = {this.props.link}
-        descriptionText = {this.props.descriptionText}
-        imageURL = {this.props.imageURL}
-        imageAlt = {this.props.imageAlt}
-        linkName = {this.props.linkName}/>
-   
+       projectData = {this.props.projectData}/>
+    
 
       </VisibilitySensor>
     );

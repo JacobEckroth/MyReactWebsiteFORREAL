@@ -1,53 +1,49 @@
 import React from "react";
-import VisibilitySensorAppearingProject from "./VisibilitySensorAppearingProject";
 import "../css/projectHolderCSS.css";
 import axios from "axios";
+import Alert from "react-bootstrap/Alert";
+import { ProjectDisplay } from ".";
 
+var uhOhAlert = (
+  <Alert variant="warning">
+    Uh oh, something went wrong with loading the projects. I'm sorry about that.
+    <Alert.Link href="/">Try reloading the page</Alert.Link>
+  </Alert>
+);
 class ProjectsHolder extends React.Component {
   constructor(props) {
-  
     super(props);
 
     this.state = {};
     this.getProjects = this.getProjects.bind(this);
     this.componentDidMount = this.componentDidMount.bind(this);
-
-    
   }
-  componentDidMount(){
-      this.getProjects();
+  componentDidMount() {
+    this.getProjects();
   }
   getProjects() {
-   var self = this;
+    var self = this;
     axios
       .get("/getAllProjects")
       .then(function (response) {
         if (response.status === 200) {
           var projects = response.data;
           var cards = projects.map((item) => (
-            <VisibilitySensorAppearingProject
-              title={item.name}
-              link={item.projectLink}
-              descriptionText={item.description}
-              imageURL={item.imageLink}
-              imageAlt={item.imageAlt}
-              key={item._id}
-              linkName="fix this later"
-            />
+            <ProjectDisplay projectData={item} />
           ));
           self.setState({
-            projects: cards 
+            projects: cards,
           });
         } else {
-           self.setState({
-            projects: <div>OH NOOOOOOOOOOOO!!!!!!</div>,
-         });
+          self.setState({
+            projects: uhOhAlert,
+          });
         }
       })
       .catch(function (error) {
         console.log(error);
         self.setState({
-          projects: <div>OH NOOOOOOOOOOOO!!!!!!</div>,
+          projects: uhOhAlert,
         });
       });
   }

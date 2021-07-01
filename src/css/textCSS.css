@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Modeseven';
+    src: local('Modeseven'), url(../fonts/Modeseven.ttf) format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  
+.consoleText{
+    font-family: 'Modeseven','sans-serif';
+    color: rgb(40, 231, 40);
+    margin-top:30px;
+    width:80%;
+    margin-left:10%;
+    font-size:2.75rem;
+}
+.regularText{
+    top:inherit;
+ 
+    color:rgb(185, 184, 184);
+    font-size:1.75rem;;
+    line-height:48px;
+    width:80%;
+    margin-left:10%;
+    margin-top:50px;
+    background-color:rgba(19, 90, 34, 0.486);
+
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border:none;
+    border-radius:10px;
+}
+
+.textLink{
+    text-decoration:underline;
+    color:inherit;
+    font-weight:bold;
+    transition:color .5s linear;
+}
+.textLink:hover{
+    color:rgb(0,255,0)
+}
+
+
+
+@media(max-width:800px){
+    .consoleText{
+        width:95%;
+        margin-left:2.5%;
+    }
+    .regularText{
+        width:95%;
+        margin-left:2.5%;
+    }
+}
+
+
+@media (max-width:600px){
+    .consoleText{
+        font-size:2.0rem;
+    }
+    .regularText{
+        font-size:1.75rem;
+    }
+}
