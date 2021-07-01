@@ -29,7 +29,7 @@ class ProjectsHolder extends React.Component {
               title={item.name}
               link={item.projectLink}
               descriptionText={item.description}
-              imageURl={item.imageLink}
+              imageURL={item.imageLink}
               imageAlt={item.imageAlt}
               key={item._id}
               linkName="fix this later"
