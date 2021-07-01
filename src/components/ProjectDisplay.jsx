@@ -59,7 +59,7 @@ class ProjectDisplay extends React.Component {
         <ListGroupItem>
           <Button
             variant="info"
-            href={this.state.projectData.gitHubLink}
+            href={this.state.projectData.githubLink}
             key="githubLink"
             title="Github Page"
             target="_blank"
