@@ -54,7 +54,7 @@ class ProjectDisplay extends React.Component {
         </ListGroupItem>
       );
     }
-    if (this.state.projectData.gitHubLink) {
+    if (this.state.projectData.githubLink) {
       currentButtons.push(
         <ListGroupItem>
           <Button
