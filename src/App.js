@@ -81,8 +81,8 @@ function App() {
         <ProjectsHolder />
         <h1>
           <VisibilitySensorAppearingText
-            text="Want to contact me? I would love to get an email that's not spam"
-            time={1000}
+            text="Want to contact me? I would love to get an email that's not spam."
+            time={2000}
           />
         </h1>
      

@@ -17,13 +17,14 @@
     width:80%;
     margin-left:10%;
     font-size:2.75rem;
+    text-shadow:2px 2px 3px black;
 }
 .regularText{
     top:inherit;
  
     color:rgb(185, 184, 184);
     font-size:1.75rem;;
-    line-height:48px;
+   
     width:80%;
     margin-left:10%;
     margin-top:50px;
@@ -52,7 +53,7 @@
 }
 
 @media(max-width:800px){
-    .consoleText{
+    .typedText{
         width:95%;
         margin-left:2.5%;
     }
@@ -64,10 +65,19 @@
 
 
 @media (max-width:600px){
-    .consoleText{
+    .typedText{
         font-size:2.0rem;
     }
     .regularText{
-        font-size:1.75rem;
+        font-size:1.5rem;
+    }
+}
+
+@media(max-width:450px){
+    .typedText{
+        font-size:1.6rem;
+    }
+    .regularText{
+        font-size:1.2rem;
     }
 }
