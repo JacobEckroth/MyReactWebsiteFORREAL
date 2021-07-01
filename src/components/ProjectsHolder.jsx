@@ -5,7 +5,7 @@ import Alert from "react-bootstrap/Alert";
 import { ProjectDisplay } from ".";
 
 var uhOhAlert = (
-  <Alert variant="warning">
+  <Alert variant="danger">
     Uh oh, something went wrong with loading the projects. I'm sorry about that.
     <Alert.Link href="/">Try reloading the page</Alert.Link>
   </Alert>

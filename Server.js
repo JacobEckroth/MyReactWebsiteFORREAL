@@ -30,11 +30,7 @@ app.get('/getAllProjects', function (req, res) {
           res.status(500).send();
         } else {
             res.status(200).send(JSON.stringify(projectDocs));
-          /*
-           * Use documents in peopleDocs to construct arguments
-           * to our view template and then use res.render() to
-           * render the page with the template and its arguments.
-           */
+          
           
         }
       });
