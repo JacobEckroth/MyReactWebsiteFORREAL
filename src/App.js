@@ -16,7 +16,7 @@ function App() {
             time={3000}
           />
         </h1>
-        <hr class="textBreak"/>
+      
         <SlideUpComponent styleName="regularText">
           <p>
             My name is Jacob Eckroth. I am currently a senior studying Computer
@@ -76,7 +76,7 @@ function App() {
           website (and probably the reason that you're here.)
         </p>
         </SlideUpComponent>
-        <hr class="textBreak"/>
+        
         <h1>
           <VisibilitySensorAppearingText
             text="Let's look at some fun projects I've been working on."
