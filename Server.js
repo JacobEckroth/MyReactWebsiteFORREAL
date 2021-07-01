@@ -23,10 +23,9 @@ app.use(express.static("public"));
 
 
 app.get('/getAllProjects', function (req, res) {
-    var projectCursor = projectsDB.find({});
+    var projectCursor = projectsDB.find({}).sort({'dateStarted':-1});
     projectCursor.toArray(function (err, projectDocs) {
-        projectDocs = Object.keys(projectDocs).map((key) => projectDocs[key]);
-        console.log(JSON.stringify(projectDocs));
+        
         if (err) {
           res.status(500).send();
         } else {
@@ -54,7 +53,7 @@ app.get('*', function (req, res) {
 
 //connecting to the database as well as starting the app listening.
 try {
-    console.log(mongoURL);
+    
     MongoClient.connect(mongoURL, function (err, client) {
         if (err) {
             throw err;
