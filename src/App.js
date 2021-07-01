@@ -16,6 +16,7 @@ function App() {
             time={3000}
           />
         </h1>
+        <hr class="textBreak"/>
         <SlideUpComponent styleName="regularText">
           <p>
             My name is Jacob Eckroth. I am currently a senior studying Computer
@@ -26,6 +27,7 @@ function App() {
             gaming, and watching Youtube videos.
           </p>
         </SlideUpComponent>
+        <hr class="textBreak"/>
         <SlideUpComponent styleName="regularText">
           <p>
             Currently, my main focus is school and successfuly graduating in 3
@@ -43,6 +45,7 @@ function App() {
             about coding and the projects that I have been working on.
           </p>
         </SlideUpComponent>
+        <hr class="textBreak"/>
         <SlideUpComponent styleName="regularText">
           <p>
             I am also currently working on figuring out where I'm going to work
@@ -56,6 +59,7 @@ function App() {
             that.
           </p>
         </SlideUpComponent>
+        <hr class="textBreak"/>
         <SlideUpComponent styleName="regularText">
         <p>
           Ok, that's definitely enough about me.{" "}
@@ -72,6 +76,7 @@ function App() {
           website (and probably the reason that you're here.)
         </p>
         </SlideUpComponent>
+        <hr class="textBreak"/>
         <h1>
           <VisibilitySensorAppearingText
             text="Let's look at some fun projects I've been working on."
