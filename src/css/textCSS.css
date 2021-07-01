@@ -52,7 +52,7 @@
     color:rgb(215,63,9);
 }
 
-@media(max-width:800px){
+@media(max-width:900px){
     .typedText{
         width:95%;
         margin-left:2.5%;
@@ -60,6 +60,8 @@
     .regularText{
         width:95%;
         margin-left:2.5%;
+        font-size:1.6rem;
+
     }
 }
 
@@ -69,7 +71,9 @@
         font-size:2.0rem;
     }
     .regularText{
-        font-size:1.5rem;
+        font-size:1.3rem;
+        padding-left:10px;
+        padding-right:10px;
     }
 }
 

@@ -65,7 +65,7 @@ class ProjectDisplay extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Github Page
+            Github Repo
           </Button>
         </ListGroupItem>
       );
