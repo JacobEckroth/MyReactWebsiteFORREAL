@@ -1,5 +1,4 @@
 import React from "react";
-import "../css/project.css";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import ListGroupItem from "react-bootstrap/ListGroupItem";

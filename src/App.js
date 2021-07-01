@@ -4,6 +4,7 @@ import {
   VisibilitySensorAppearingText,
   Footer,
   ContactHolder,
+  FlipCard
 } from "./components";
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
             time={3000}
           />
         </h1>
-
-        <SlideUpComponent styleName="regularText">
+         
+            <SlideUpComponent styleName="regularText">
           <p>
             My name is Jacob Eckroth. I am currently a senior studying Computer
             Science with a focus in Simulation and Game Programming at Oregon
