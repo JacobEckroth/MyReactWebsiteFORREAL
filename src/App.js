@@ -3,8 +3,7 @@ import {
   ProjectsHolder,
   VisibilitySensorAppearingText,
   Footer,
-  ContactHolder,
-  FlipCard
+  ContactHolder
 } from "./components";
 
 function App() {

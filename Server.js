@@ -23,7 +23,7 @@ app.use(express.static("public"));
 
 
 app.get('/getAllProjects', function (req, res) {
-    var projectCursor = projectsDB.find({}).sort({'dateStarted':-1});
+    var projectCursor = projectsDB.find({}).sort({'dateStarted':1});
     projectCursor.toArray(function (err, projectDocs) {
         
         if (err) {

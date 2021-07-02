@@ -1,11 +1,18 @@
 
+.flip-card-link{
+   text-decoration: none;
+}
+
+.flip-card-link:hover{
+    text-decoration:none;
+}
 .flip-card {
   background-color: transparent;
   width: 300px;
   height: 300px;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   cursor:pointer;
-
+  text-decoration: none;
 }
 
 /* This container is needed to position the front and back side */
@@ -46,9 +53,10 @@
     background: #73C8A9;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+   position:static;
   color: white;
   transform: rotateY(180deg);
+  
 }
 
 .flip-card-img{
@@ -59,6 +67,7 @@ background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, F
 .projectCard{
     margin-bottom:40px;
     flex-basis:30%;
+    text-decoration: none;
 }
 
 .projectTitle{
@@ -66,6 +75,7 @@ background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, F
     width:90%;
     font-size:2rem;
     text-shadow:2px 2px 3px black;
+
 }
 .projectDescription{
     width:80%;

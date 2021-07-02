@@ -1,0 +1,36 @@
+.linksHolder{
+    height:40px;
+    display:flex;
+    flex-flow:row wrap;
+    position:absolute;
+    
+    bottom:5px;
+    left:5px;
+    text-decoration:none;
+}
+.linkHolder{
+    height:100%;
+    margin-left:10px;
+}
+.linkWrapper{
+    height:100%;
+}
+.linkSVG{
+    height:100%;
+    width:auto;
+    fill:white;
+    transition:fill .5s ease;
+    animation: wiggleOut 1s linear;
+}
+.linkSVG:hover{
+    animation: wiggleIn 1.5s linear infinite;
+}
+.githubSVG:hover{
+    fill:rgb(51, 51, 161);
+}
+.youtubeSVG:hover{
+    fill:rgb(233, 53, 53);
+}
+path{
+    fill:inherit;
+}
