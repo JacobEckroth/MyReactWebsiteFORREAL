@@ -15,6 +15,7 @@
   text-decoration: none;
 }
 
+
 /* This container is needed to position the front and back side */
 .flip-card-inner {
   position: relative;
@@ -79,11 +80,28 @@ background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, F
 }
 .projectDescription{
     width:80%;
-    text-align:center;
+    text-align:left;
     text-shadow:1px 1px 1px black;
 }
 .dateParagraph{
     width:80%;
-    text-align:center;
+    text-align:left;
     text-shadow:1px 1px 1px black; 
+}
+
+
+@media(max-width:375px){
+  .flip-card{
+    width:250px;
+    height:250px;
+  }
+  .projectTitle{
+    font-size:1.5rem;
+  }
+  .projectDescription{
+    width:95%;
+  }
+  .dateParagraph{
+    width:95%;
+  }
 }
