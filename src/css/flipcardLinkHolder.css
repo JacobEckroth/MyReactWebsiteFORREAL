@@ -26,10 +26,13 @@
     animation: wiggleIn 1.5s linear infinite;
 }
 .githubSVG:hover{
-    fill:rgb(51, 51, 161);
+    fill:rgb(71, 71, 172);
 }
 .youtubeSVG:hover{
-    fill:rgb(233, 53, 53);
+    fill:rgb(243, 79, 79);
+}
+.portfolioSVG:hover{
+    fill:rgb(135, 35, 228);
 }
 path{
     fill:inherit;
