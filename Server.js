@@ -11,8 +11,6 @@ app.use(express.static("public"));
 
 
 
-
-
 app.get('*', function (req, res) {
     res.status(404).send("I should really create a 404 page shouldn't I...");
 })
