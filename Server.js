@@ -1,7 +1,7 @@
 const express = require('express')
 const path = require('path')
 const app = express()
-const port = 3001
+const port = 80
 
 const authFile = require(path.join(__dirname, "auth.json"));
 const mongoUser = authFile.mongoUsername
