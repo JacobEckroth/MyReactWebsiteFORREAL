@@ -35,14 +35,10 @@ class FlipCard extends React.Component {
 
   chooseClickLink() {
     var link;
-    if (this.state.projectData.projectLink) {
-      link = this.state.projectData.projectLink;
-    } else if (this.state.projectData.itchIOLink) {
-      link = this.state.projectData.itchIOLink;
-    } else if (this.state.projectData.portfolioLink) {
-      link = this.state.projectData.portfolioLink;
+   if (this.state.projectData.itch_io_link) {
+      link = this.state.projectData.itch_io_link;
     } else {
-      link = this.state.projectData.githubLink;
+      link = this.state.projectData.github_link;
     }
     this.setState({
       clickLink: link,
@@ -51,8 +47,8 @@ class FlipCard extends React.Component {
   createDate() {
     var dateString;
     var date;
-    if (this.state.projectData.dateFinished) {
-      date = new Date(this.state.projectData.dateFinished);
+    if (this.state.projectData.end_date) {
+      date = new Date(this.state.projectData.end_date);
       dateString =
         "Date Finished: " +
         months[date.getMonth()] +
@@ -63,7 +59,7 @@ class FlipCard extends React.Component {
 
       console.log(date);
     } else {
-      date = new Date(this.state.projectData.dateUpdated);
+      date = new Date(this.state.projectData.update_date);
       dateString =
         "Date Updated: " +
         months[date.getMonth()] +
@@ -81,7 +77,7 @@ class FlipCard extends React.Component {
     return (
       <SlideUpComponent
         styleName="projectCard"
-        key={this.state.projectData._id}
+        key={this.state.projectData.project_id}
       >
         <div className="flip-card">
           <a
@@ -95,12 +91,12 @@ class FlipCard extends React.Component {
               <div className="flip-card-front">
                 <img
                   className="flip-card-img"
-                  src={this.state.projectData.imageLink}
-                  alt={this.state.projectData.imageAlt}
+                  src={this.state.projectData.image_link}
+                  alt={this.state.projectData.alt_text}
                 />
               </div>
               <div className="flip-card-back">
-                <h1 className="projectTitle">{this.state.projectData.name}</h1>
+                <h1 className="projectTitle">{this.state.projectData.title}</h1>
                 <p className="projectDescription">
                   {this.state.projectData.description}
                 </p>

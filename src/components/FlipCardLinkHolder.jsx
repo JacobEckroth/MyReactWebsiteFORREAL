@@ -16,13 +16,13 @@ class FlipCardLinkHolder extends React.Component {
 
   createLinks() {
     var links = [];
-    if (this.state.projectData.githubLink) {
+    if (this.state.projectData.github_link) {
       links.push(
         <a
           class="linkWrapper"
           target="_blank"
           rel="noopener noreferrer"
-          href={this.state.projectData.githubLink}
+          href={this.state.projectData.github_link}
           title="Github"
         >
           <svg
@@ -35,13 +35,13 @@ class FlipCardLinkHolder extends React.Component {
         </a>
       );
     }
-    if (this.state.projectData.youtubeLink) {
+    if (this.state.projectData.youtube_link) {
       links.push(
         <a
           class="linkWrapper"
           target="_blank"
           rel="noopener noreferrer"
-          href={this.state.projectData.youtubeLink}
+          href={this.state.projectData.youtube_link}
           title="Youtube Showcase"
         >
           <svg
@@ -54,7 +54,7 @@ class FlipCardLinkHolder extends React.Component {
         </a>
       );
     }
-    if (this.state.projectData.portfolioLink) {
+   /* if (this.state.projectData.portfolioLink) {
       links.push(
         <a
           class="linkWrapper"
@@ -72,7 +72,7 @@ class FlipCardLinkHolder extends React.Component {
             </svg>
         </a>
       );
-    }
+    }*/
 
     var linksInDivs = links.map((link) => <div class="linkHolder">{link}</div>);
     this.setState({

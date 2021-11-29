@@ -21,8 +21,7 @@ function App() {
           <p>
             My name is Jacob Eckroth. I am currently a senior studying Computer
             Science with a focus in Simulation and Game Programming at Oregon
-            State University <span class="beaverOrange">(Go Beavs!)</span>. I
-            work as the Lead Student Ambassador for the College of Engineering.
+            State University <span class="beaverOrange">(Go Beavs!)</span>.
             In my (very little) free time, I enjoy reading, working on personal
             CS projects, playing tennis, gaming, and watching Youtube videos.
           </p>
@@ -51,7 +50,7 @@ function App() {
             I am also currently working on figuring out where I'm going to work
             once I graduate in June 2022. If you're on this website, then
             there's a chance you're considering offering me a job. That would be
-            great! I would love that. I enjoy working on UI development, and by
+            great! I enjoy working on UI development, and by
             that I mean I love making things that users interact with. That's
             why so many of my personal projects are games. Being able to make
             things happen when someone presses something on the screen is so
