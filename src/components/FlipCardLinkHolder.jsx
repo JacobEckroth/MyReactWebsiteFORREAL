@@ -54,7 +54,7 @@ class FlipCardLinkHolder extends React.Component {
         </a>
       );
     }
-   /* if (this.state.projectData.portfolioLink) {
+   if (this.state.projectData.portfolioLink) {
       links.push(
         <a
           class="linkWrapper"
@@ -72,7 +72,7 @@ class FlipCardLinkHolder extends React.Component {
             </svg>
         </a>
       );
-    }*/
+    }
 
     var linksInDivs = links.map((link) => <div class="linkHolder">{link}</div>);
     this.setState({
