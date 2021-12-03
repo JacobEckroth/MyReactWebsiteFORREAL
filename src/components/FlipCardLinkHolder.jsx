@@ -54,7 +54,7 @@ class FlipCardLinkHolder extends React.Component {
         </a>
       );
     }
-   if (this.state.projectData.portfolioLink) {
+   if (this.state.projectData.portfolio_link) {
       links.push(
         <a
           class="linkWrapper"
