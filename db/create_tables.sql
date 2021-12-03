@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS images;
+DROP TABLE IF EXISTS portfolio_links;
 DROP TABLE IF EXISTS itchio_links;
 DROP TABLE IF EXISTS youtube_links;
 DROP TABLE IF EXISTS github_links;
@@ -31,6 +32,13 @@ CREATE TABLE youtube_links(
 
 CREATE TABLE itchio_links(
     itchio_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    project_id INT UNIQUE,
+    link VARCHAR(255) NOT NULL,
+    FOREIGN KEY (project_id) REFERENCES projects(project_id) ON DELETE CASCADE
+);
+
+CREATE TABLE portfolio_links(
+    portfolio_id INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
     project_id INT UNIQUE,
     link VARCHAR(255) NOT NULL,
     FOREIGN KEY (project_id) REFERENCES projects(project_id) ON DELETE CASCADE

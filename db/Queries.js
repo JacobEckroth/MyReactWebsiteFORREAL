@@ -18,7 +18,7 @@ function addImage(link,altText,projectId){
     return poolFile.pool.query('INSERT INTO images (link,alt_text,project_id) VALUES($1,$2,$3) ON CONFLICT (project_id) DO UPDATE SET link=$1, alt_text=$2, project_id=$3',[link,altText,projectId]);
 }
 function getAllProjects(){
-    return poolFile.pool.query('SELECT P.project_id,P.title, P.description, P.start_date, P.end_date,P.update_date, I.alt_text,I.link AS image_link,G.link AS github_link,itch_io.link AS itch_io_link, Y.link AS youtube_link FROM projects AS P INNER JOIN images AS I ON P.project_id = I.project_id LEFT JOIN github_links AS G ON P.project_id = G.project_id LEFT JOIN itchio_links AS itch_io ON P.project_id=itch_io.project_id LEFT JOIN youtube_links AS Y ON P.project_id = Y.project_id');
+    return poolFile.pool.query('SELECT P.project_id,P.title, P.description, P.start_date, P.end_date,P.update_date, I.alt_text,I.link AS image_link,G.link AS github_link,itch_io.link AS itch_io_link, Y.link AS youtube_link, PORTFOLIO.link AS portfolio_link FROM projects AS P INNER JOIN images AS I ON P.project_id = I.project_id LEFT JOIN github_links AS G ON P.project_id = G.project_id LEFT JOIN itchio_links AS itch_io ON P.project_id=itch_io.project_id LEFT JOIN youtube_links AS Y ON P.project_id = Y.project_id LEFT JOIN portfolio_links AS PORTFOLIO ON P.project_id = PORTFOLIO.project_id');
 }
 
 module.exports = {

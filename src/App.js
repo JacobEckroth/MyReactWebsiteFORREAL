@@ -50,8 +50,7 @@ function App() {
             I am also currently working on figuring out where I'm going to work
             once I graduate in June 2022. If you're on this website, then
             there's a chance you're considering offering me a job. That would be
-            great! I enjoy working on UI development, and by
-            that I mean I love making things that users interact with. That's
+            great! I enjoy working on UI development, I love making things that users interact with. That's
             why so many of my personal projects are games. Being able to make
             things happen when someone presses something on the screen is so
             awesome to me, and it will always be amazing that I'm able to do
@@ -72,7 +71,7 @@ function App() {
               Here's my resume
             </a>{" "}
             if you want to look at it, but lets move on to the fun part of this
-            website (and probably the reason that you're here.)
+            website, my project portfolio!
           </p>
         </SlideUpComponent>
 

@@ -35,7 +35,9 @@ class FlipCard extends React.Component {
 
   chooseClickLink() {
     var link;
-   if (this.state.projectData.itch_io_link) {
+    if(this.state.projectData.portfolio_link){
+      link = this.state.projectData.portfolio_link;
+    }else if (this.state.projectData.itch_io_link) {
       link = this.state.projectData.itch_io_link;
     } else {
       link = this.state.projectData.github_link;
