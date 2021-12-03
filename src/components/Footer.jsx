@@ -6,7 +6,7 @@ function Footer(){
             <p class="footerText">This website was made using <a rel="noreferrer" target="_blank" class="footerLink" href="https://reactjs.org/" title="React Webpage">React</a> </p>
             <img class="reactImage" src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React Logo"/>
             
-            <p class="footerText">Copyright © {new Date().getFullYear()} Jacob Eckroth. All rights reserved.</p>
+            <p class="footerText">Copyright © (2020-{new Date().getFullYear()}) Jacob Eckroth. All rights reserved.</p>
             
         </div>
     )
