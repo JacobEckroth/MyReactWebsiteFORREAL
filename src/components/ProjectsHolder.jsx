@@ -29,7 +29,7 @@ class ProjectsHolder extends React.Component {
       .then(function (response) {
         if (response.status === 200) {
           var projects = response.data;
-            console.log("we're rocking rocking and rolling");
+            
           var cards = projects.map((item) => (
             <FlipCard projectData={item} />
           ));
